@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    tools:context=".SetupProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:src="@drawable/pngegg"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:text="Profile Information"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|normal"
+        android:textColor="#010C51">
+
+    </TextView>
+    <TextView
+        android:text="Lütfen adınızı ve profil fotoğrafınızı oluşturun"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|normal"
+        android:textColor="#383839">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameBox"
+                android:hint="Adınızı Yazın"
+                android:padding="10sp"
+                android:ems="1"
+                android:textSize="20sp"
+                android:textStyle="bold|normal"
+                android:textColor="#1C1C1C"
+                android:layout_marginBottom="15sp"
+                android:background="@drawable/background_shape"
+                android:autofillHints="">
+
+            </EditText>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ConinueBtn02"
+                android:text="Profili Oluşturun"
+                android:textSize="17sp"
+                android:textAllCaps="false"
+                android:backgroundTint="#228C27">
+
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>
