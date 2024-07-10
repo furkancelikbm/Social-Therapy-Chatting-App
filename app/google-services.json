@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "425035200955",
+    "firebase_url": "https://answerandquestion-1d3c3-default-rtdb.firebaseio.com",
+    "project_id": "answerandquestion-1d3c3",
+    "storage_bucket": "answerandquestion-1d3c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425035200955:android:e2538dd2992b6ffb332c9e",
+        "android_client_info": {
+          "package_name": "com.example.myprojectnew"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsyxoHO4jjfuUcKy2C7I4YAl9DwGnztNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
